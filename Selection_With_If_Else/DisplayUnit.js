@@ -1,7 +1,10 @@
 // Read a Number 1, 10, 100, 1000, etc and display unit, ten, hundred,...
 
-let num = parseInt(prompt("enter number -> "))
-// let num = 999;
+// let num = parseInt(prompt("enter number -> "))
+let num = 90299;
+
+// var num = window.prompt("Enter number o your choice : ");
+// document.write(num);
 
 if (num >= 1 && num < 10){
     console.log("The unit of" +num+ " is Ones");
@@ -30,4 +33,3 @@ else if(num >= 10000000 && num < 100000000){
 else{
     console.log("More than crore unit");
 }
-	

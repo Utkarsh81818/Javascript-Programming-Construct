@@ -1,4 +1,4 @@
-// Write a program that reads 5 Random 2 Digit values, then find their sum and the average
+//Question 4: Write a program that reads 5 Random 2 Digit values, then find their sum and the average
 function generateRandomNumber() {
     return Math.round(Math.random() * 89 + 10);
 }
